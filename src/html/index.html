@@ -1,20 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <include src="./partials/header.html" title="Bienvenidos a Adalab"></include>
-      <include src="./partials/main.html"></include>
-      <include src="./partials/footer.html"></include>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evaluación final Nadia</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="icon" href="./assets/images/ico-menu.svg" />
+</head>
+
+<body>
+  <!---- <div class="page">
+    <include src="./partials/header.html"></include>
+    <include src="./partials/main.html"></include>
+    <include src="./partials/footer.html"></include>
+  </div> -->
+  <header>
+    <nav>
+      <a title="menu" href="https://adalab.es/"><img title="menu" src="./assets/images/ico-menu.svg" alt="Menu"></a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <h1>Anonymous proxy</h1>
+      <p>In hac habitasse platea dictumst.</p>
+      <a title="scroll-down" href="#reasons__section"><img title="scroll-down" src="./assets/images/ico-scroll-down.svg"
+          alt="scroll-down"></a>
+    </section>
+    <section>
+      <article>
+        <small>Insomnia tips</small>
+        <h2>Looking through a window</h2>
+        <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
+          semper
+          sodales rutrum.</p>
+      </article>
+      <button>go</button>
+    </section>
+    <section id="reasons__section">
+      <h2>3 reasons to purchase</h2>
+      <article>
+        <h3>Ut sed metus</h3>
+        <p>Lorem ipsum dolor sit amet, consecteur.</p>
+      </article>
+      <article>
+        <h3>Curabitur ac erat</h3>
+        <p>Mauris mattis urna quis lorem molestie.</p>
+      </article>
+      <article>
+        <h3>Morbi dictum</h3>
+        <p>Aliquam in dolor et dolor tincidunt.</p>
+      </article>
+      <button>More reasons</button>
+    </section>
+  </main>
+  <footer>
+    <a title="arrow" href=""><img title="arrow" src="./assets/images/ico-arrow.svg" alt="arrow"></a>
+
+    <nav>
+      <ul>
+        <li>
+          <a class="link__articles" title="Go to articles" href="https://adalab.es/">Articles</a>
+        </li>
+        <li>
+          <a class="link__books" title="Go to books" href="https://adalab.es/">Books</a>
+        </li>
+        <li>
+          <a class="link__events" title="Go to events" href="https://adalab.es/">Events</a>
+        </li>
+        <li>
+          <a class="link__reasons" title="Go to reasons" href="https://adalab.es/">Reasons</a>
+        </li>
+        <li>
+          <a class="link__tips" title="Go to tips" href="https://adalab.es/">Tips</a>
+        </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://adalab.es/">Twitter</a>
+        </li>
+        <li><a href="https://adalab.es/">Instagram</a>
+        </li>
+        <li><a href="https://adalab.es/">Mastodon.social</a>
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <small>©2021</small>
+      <small>we ❤︎ components</small>
     </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+  </footer>
+</body>
+
 </html>
