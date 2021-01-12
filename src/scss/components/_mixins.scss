@@ -1,0 +1,9 @@
+@mixin flexColumn() {
+  display: flex;
+  flex-direction: column;
+}
+@mixin titleStyle() {
+  font-family: $fontTitle;
+  font-size: $fontSizeTitle;
+  text-transform: capitalize;
+}

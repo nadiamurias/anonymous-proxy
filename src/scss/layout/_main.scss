@@ -13,9 +13,7 @@
     }
   }
   & .main__info--title {
-    font-family: $fontTitle;
-    font-size: $fontSizeTitle;
-    text-transform: capitalize;
+    @include titleStyle();
     font-weight: bold;
     line-height: 1.25;
     text-align: left;

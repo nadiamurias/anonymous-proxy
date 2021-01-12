@@ -3,9 +3,7 @@
   background-color: $iceBlue;
   & .reasons__title {
     text-align: center;
-    font-family: $fontTitle;
-    font-size: $fontSizeTitle;
-    text-transform: capitalize;
+    @include titleStyle();
     color: $black;
     margin-bottom: 45px;
     padding-top: 30px;

@@ -4,8 +4,7 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position-x: center;
-  display: flex;
-  flex-direction: column;
+  @include flexColumn();
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 30px;
