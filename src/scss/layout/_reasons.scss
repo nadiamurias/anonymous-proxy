@@ -1,6 +1,6 @@
 //reasons
 .reasons__section {
-  height: 624px;
+  height: 600px;
   background-color: $iceBlue;
   & .reasons__title {
     text-align: center;
@@ -31,6 +31,10 @@
 .reasons__text {
   font-family: $fontText;
   line-height: 30px;
+}
+.btn__box {
+  display: flex;
+  justify-content: center;
 }
 .btn__more {
   height: 45px;
