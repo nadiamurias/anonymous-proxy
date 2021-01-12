@@ -7,10 +7,13 @@
     font-size: $fontSizeTitle;
     text-transform: capitalize;
     color: $black;
-    margin: 0 15px 45px 15px;
+    margin-bottom: 45px;
     padding-top: 30px;
     @media all and (min-width: 768px) {
       font-size: $fontSizeTitleTablet;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 60px;
     }
   }
   & .reasons__content {
@@ -37,6 +40,11 @@
     }
   }
 }
+#reasons {
+  @media all and (min-width: 768px) {
+    scroll-margin-top: 120px;
+  }
+}
 .reasons__subtitle {
   font-family: $fontTitle;
   color: $black;
@@ -47,6 +55,9 @@
   @media all and (min-width: 768px) {
     margin-top: 14px;
     padding: 0 20px 0 20px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 0 40px 0 40px;
   }
 }
 .btn__box {
@@ -63,9 +74,9 @@
     text-align: center;
     background-color: $orange;
     margin: 45px 68px 60px 68px;
-    transition: background-color ease 1s;
+    transition: background-color ease 0.8s, width ease 0.8s;
     &:hover {
-      //cambiar texto en doble línea
+      width: 210px;
       background-color: $white;
       color: $orange;
       border: solid 2px $orange;
@@ -74,6 +85,9 @@
     @media all and (min-width: 768px) {
       width: 210px;
       margin-top: 60px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 255px;
     }
   }
 }
