@@ -1,0 +1,52 @@
+//reasons
+.reasons__section {
+  height: 624px;
+  background-color: $iceBlue;
+  & .reasons__title {
+    text-align: center;
+    font-family: $fontTitle;
+    font-size: $fontSizeTitle;
+    color: $black;
+    margin: 0 15px 45px 15px;
+    padding-top: 30px;
+  }
+  & .reasons__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 45px;
+    text-align: center;
+  }
+  & .reasons__content .reasons__list {
+    list-style: none;
+    margin: 0 70px 0 70px;
+    font-size: $fontSizeText;
+    color: $black;
+  }
+}
+.reasons__subtitle {
+  font-family: $fontTitle;
+  color: $black;
+}
+.reasons__text {
+  font-family: $fontText;
+  line-height: 30px;
+}
+.btn__more {
+  height: 45px;
+  width: 184px;
+  border-radius: 22.5px;
+  border: 0;
+  padding: 0 29.5px 0 30.5px;
+  color: $white;
+  font-size: 20px;
+  text-align: center;
+  background-color: $orange;
+  margin: 45px 68px 50px 68px;
+  transition: background-color ease 0.8s;
+  &:hover {
+    background-color: $white;
+    color: $orange;
+    border: solid 1px $orange;
+  }
+}

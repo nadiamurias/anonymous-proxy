@@ -1,0 +1,44 @@
+//main-article
+.main__info {
+  background-color: $white;
+  & .main__info--small {
+    color: $lightBlue;
+    font-family: $fontText;
+    font-size: $fontSizeSmall;
+    text-align: left;
+    margin: 0 0 1px 15px;
+  }
+  & .main__info--title {
+    font-family: $fontTitle;
+    font-size: $fontSizeTitle;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    margin: 0 15px 15px 15px;
+  }
+  & .main__info--text {
+    font-family: $fontText;
+    font-size: $fontSizeText;
+    line-height: 1.67;
+    color: #000000;
+    margin: 0 15px 30px 15px;
+  }
+}
+.btn__go {
+  height: 45px;
+  width: 76px;
+  border: solid 2px $orange;
+  border-radius: 22.5px;
+  padding: 0 25px 0 24px;
+  color: $orange;
+  font-size: 20px;
+  text-align: center;
+  background-color: $white;
+  margin: 0 0 45px 15px;
+  transition: background-color ease 0.8s;
+  &:hover {
+    background-color: $orange;
+    color: $white;
+    border: solid;
+  }
+}

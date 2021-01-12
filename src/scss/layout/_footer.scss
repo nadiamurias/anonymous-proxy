@@ -1,1 +1,46 @@
-
+//footer
+.footer {
+  background-color: $darkGreyBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & .arrow {
+    height: 45px;
+    width: 45px;
+    background-color: $white;
+    border-radius: 45px;
+    padding: 13px;
+    position: relative;
+    top: -22px;
+    z-index: 1;
+  }
+  & .footer__menu {
+    margin: 10px 87px 30px 87px;
+  }
+}
+.footer__link {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  & .link__item {
+    color: $white;
+    text-decoration: none;
+    font-family: $fontText;
+    font-size: $fontSize16;
+    line-height: 30px;
+    padding: 5px;
+  }
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $white;
+  margin-bottom: 45px;
+  & .copyright__year {
+    margin-bottom: 10px;
+  }
+}
+.heart {
+  color: $orange;
+}
