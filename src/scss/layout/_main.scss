@@ -38,37 +38,39 @@
       margin-top: 30px;
     }
   }
+  & .btn__go {
+    height: 45px;
+    width: 76px;
+    border: solid 2px $orange;
+    border-radius: 22.5px;
+    padding: 0 25px 0 24px;
+    color: $orange;
+    font-size: 20px;
+    font-family: $fontText;
+    text-align: center;
+    background-color: $white;
+    margin: 0 0 45px 15px;
+    transition: background-color ease 0.8s, width ease 0.8s;
+    &:hover {
+      width: 90px;
+      background-color: $orange;
+      color: $white;
+      box-shadow: 2px 2px 2px lightgrey;
+    }
+    @media all and (min-width: 768px) {
+      width: 91px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 160px;
+      margin-bottom: 0;
+    }
+  }
+
   @media all and (min-width: 768px) {
     margin-left: 24px;
     margin-right: 39px;
   }
   @media all and (min-width: 1200px) {
     margin: 60px 275px;
-  }
-}
-.btn__go {
-  height: 45px;
-  width: 76px;
-  border: solid 2px $orange;
-  border-radius: 22.5px;
-  padding: 0 25px 0 24px;
-  color: $orange;
-  font-size: 20px;
-  font-family: $fontText;
-  text-align: center;
-  background-color: $white;
-  margin: 0 0 45px 15px;
-  transition: background-color ease 1s;
-  &:hover {
-    background-color: $orange;
-    color: $white;
-    box-shadow: 2px 2px 2px lightgrey;
-  }
-  @media all and (min-width: 768px) {
-    width: 91px;
-  }
-  @media all and (min-width: 1200px) {
-    width: 160px;
-    margin-bottom: 0;
   }
 }
