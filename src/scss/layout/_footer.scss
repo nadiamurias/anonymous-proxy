@@ -58,11 +58,11 @@
 }
 @keyframes intro {
   from {
-    opacity: 2;
+    opacity: 1;
     transform: scale(1);
   }
   to {
-    opacity: 1;
+    opacity: 2;
     transform: scale(1);
     top: -50px;
   }
