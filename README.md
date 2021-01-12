@@ -1,10 +1,10 @@
-![Adalab](http://beta.adalab.es/modulo-1-evaluacion-final-Nadia3584/)
-
 # Evaluación final - módulo 1- Nadia Murias
 
 Hola!!
 
 He desarrollado mi primera página web individual como futura programadora front- end.
+
+Podrás acceder a él en el siguiente [enlace](http://beta.adalab.es/modulo-1-evaluacion-final-Nadia3584/)
 
 Utilizando las tecnologías de Sass y Gulp he podido agilizar la creación y automatización del código.
 
@@ -36,15 +36,15 @@ src
 ├─ scss
 | ├─ components
 | ├─ core
-| | ├─ \_reset.scss
-| | ├─ \_variables.scss
+| | ├─_reset.scss
+| | ├─_variables.scss
 | ├─ layout
-| | ├─ \_footer.scss
-| | ├─ \_hero.scss
-| | ├─ \_reset.scss
-| | ├─ \_main.scss
-| | ├─ \_menu.scss
-| | ├─ \_reasons.scss
+| | ├─_footer.scss
+| | ├─_hero.scss
+| | ├─_reset.scss
+| | ├─_main.scss
+| | ├─_menu.scss
+| | ├─_reasons.scss
 | └─ pages
 | | ├─ \_main.scss
 
