@@ -18,12 +18,20 @@
     font-size: $fontSizeh1;
     text-transform: uppercase;
     margin: 0 15px 10px 15px;
+    width: 400px;
+    text-align: center;
     @media all and (min-width: 768px) {
+      width: 800px;
+      font-size: 80px;
+      line-height: 106px;
     }
   }
   & .hero__text {
     font-family: $fontText;
     font-size: $fontSize16;
+    @media all and (min-width: 768px) {
+      font-size: $fontSizeTitle;
+    }
   }
   & .hero__scroll-down {
     height: 45px;

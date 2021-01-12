@@ -1,14 +1,17 @@
 //reasons
 .reasons__section {
-  height: 600px;
   background-color: $iceBlue;
   & .reasons__title {
     text-align: center;
     font-family: $fontTitle;
     font-size: $fontSizeTitle;
+    text-transform: capitalize;
     color: $black;
     margin: 0 15px 45px 15px;
     padding-top: 30px;
+    @media all and (min-width: 768px) {
+      font-size: $fontSizeTitleTablet;
+    }
   }
   & .reasons__content {
     display: grid;
@@ -16,12 +19,22 @@
     grid-template-rows: 1fr 1fr 1fr;
     gap: 45px;
     text-align: center;
+    @media all and (min-width: 768px) {
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 27px;
+      align-content: center;
+    }
   }
   & .reasons__content .reasons__list {
     list-style: none;
     margin: 0 70px 0 70px;
     font-size: $fontSizeText;
     color: $black;
+    @media all and (min-width: 768px) {
+      margin: 0;
+    }
   }
 }
 .reasons__subtitle {
@@ -31,26 +44,36 @@
 .reasons__text {
   font-family: $fontText;
   line-height: 30px;
+  @media all and (min-width: 768px) {
+    margin-top: 14px;
+    padding: 0 20px 0 20px;
+  }
 }
 .btn__box {
   display: flex;
   justify-content: center;
-}
-.btn__more {
-  height: 45px;
-  width: 184px;
-  border-radius: 22.5px;
-  border: 0;
-  padding: 0 29.5px 0 30.5px;
-  color: $white;
-  font-size: 20px;
-  text-align: center;
-  background-color: $orange;
-  margin: 45px 68px 50px 68px;
-  transition: background-color ease 0.8s;
-  &:hover {
-    background-color: $white;
-    color: $orange;
-    border: solid 1px $orange;
+  & .btn__more {
+    height: 45px;
+    width: 184px;
+    border-radius: 22.5px;
+    border: 0;
+    padding: 0 29.5px 0 30.5px;
+    color: $white;
+    font-size: 20px;
+    text-align: center;
+    background-color: $orange;
+    margin: 45px 68px 60px 68px;
+    transition: background-color ease 1s;
+    &:hover {
+      //cambiar texto en doble línea
+      background-color: $white;
+      color: $orange;
+      border: solid 2px $orange;
+      box-shadow: 2px 2px 2px lightgrey;
+    }
+    @media all and (min-width: 768px) {
+      width: 210px;
+      margin-top: 60px;
+    }
   }
 }
