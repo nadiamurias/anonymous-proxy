@@ -8,22 +8,16 @@
   position: fixed;
 }
 //hero
-.hero__image {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  transform: translate(20px, 230px);
-}
 .hero {
-  /*height: 100vh;*/ //centrar imagen
-  /*background-image: url(../images/cover.jpg);
-  background-size: cover;*/
+  height: 100vh;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position-x: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   margin-bottom: 30px;
-  z-index: 1;
   & .hero__box {
     text-align: center;
     color: #ffffff;
@@ -82,7 +76,7 @@
   color: #f26002;
   font-size: 20px;
   text-align: center;
-  background-color: white;
+  background-color: $white;
   margin: 0 0 45px 15px;
 }
 
@@ -152,7 +146,6 @@
     margin: 10px 87px 30px 87px;
   }
 }
-
 .footer__link {
   list-style-type: none;
   text-align: center;
