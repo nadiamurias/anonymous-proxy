@@ -54,6 +54,12 @@
       background-color: $orange;
       color: $white;
       box-shadow: 2px 2px 2px lightgrey;
+      @media all and (min-width: 768px) {
+        width: 100px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 140px;
+      }
     }
     @media all and (min-width: 768px) {
       width: 91px;
