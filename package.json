@@ -1,7 +1,7 @@
 {
-	"name": "adalab-web-starter-kit",
+	"name": "modulo-1-evaluacion-final-nadia3584",
 	"version": "3.0.1",
-	"description": "Adalab web starter kit",
+	"description": "Evaluación final Nadia Murias",
 	"dependencies": {
 		"browser-sync": "^2.26.12",
 		"del": "^5.1.0",
@@ -32,9 +32,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
+		"url": "git+ssh://git@github.com:Adalab/modulo-1-evaluacion-final-Nadia3584.git"
 	},
-	"author": "Adalab",
+	"author": "Nadia Murias",
 	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"homepage": "https://github.com/Adalab/modulo-1-evaluacion-final-Nadia3584.git"
 }
