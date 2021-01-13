@@ -56,17 +56,7 @@
     margin: auto;
   }
 }
-@keyframes intro {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-  to {
-    opacity: 2;
-    transform: scale(1);
-    top: -50px;
-  }
-}
+
 .arrow {
   height: 45px;
   width: 45px;
@@ -79,7 +69,7 @@
   top: -22px;
   z-index: 2;
   animation-duration: 2s;
-  animation-name: intro;
+  animation-name: arrow;
   animation-iteration-count: 2;
 }
 .footer__link {

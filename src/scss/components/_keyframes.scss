@@ -1,0 +1,23 @@
+//title-hero
+@keyframes hero {
+  from {
+    opacity: 0;
+    transform: scale(5);
+  }
+  to {
+    opacity: 2;
+    transform: scale(1);
+  }
+}
+//arrow-footer
+@keyframes arrow {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 2;
+    transform: scale(1);
+    top: -50px;
+  }
+}
