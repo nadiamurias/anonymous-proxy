@@ -8,16 +8,16 @@ Podrás acceder a ella a través del siguiente [enlace](http://beta.adalab.es/mo
 
 Utilizando las tecnologías de Sass y Gulp he podido agilizar la creación y automatización del código.
 
-El repositorio está compuesto de varias carpetas y ficheros, donde ubicamos las distintas partes del código como son:
+El repositorio está compuesto de varias carpetas y ficheros, donde ubicamos las distintas partes del código, como son:
 
 - **docs** donde verás el código listo para visualizarlo a través del servidor.
 - **src** recoge toda la estructura del código (html, sass e imágenes).
 
 A continuación detallo el contenido de la carpeta **src**.
 
-## Estructura de carpetas.
+## Estructura de carpetas
 
-La carpeta **src** está compuesta a su vez por las siguientes carpetas:
+La carpeta **src** está compuesta a su vez por las siguientes carpetas y ficheros:
 
 - html
   - partials
