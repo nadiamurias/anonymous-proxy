@@ -19,6 +19,9 @@
     margin: 0 15px 10px 15px;
     width: 400px;
     text-align: center;
+    animation-duration: 2s;
+    animation-name: hero;
+    animation-iteration-count: 1;
     @media all and (min-width: 768px) {
       width: 800px;
       font-size: 80px;
@@ -48,5 +51,15 @@
     @media all and (min-width: 1200px) {
       margin-bottom: 13px;
     }
+  }
+}
+@keyframes hero {
+  from {
+    opacity: 0;
+    transform: scale(5);
+  }
+  to {
+    opacity: 2;
+    transform: scale(1);
   }
 }

@@ -1,7 +1,8 @@
 //footer
 .footer {
   background-color: $darkGreyBlue;
-  @include flexColumn();
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   & .footer__menu {
@@ -24,7 +25,8 @@
     }
   }
   & .copyright {
-    @include flexColumn();
+    display: flex;
+    flex-direction: column;
     align-items: center;
     color: $white;
     margin-bottom: 45px;
