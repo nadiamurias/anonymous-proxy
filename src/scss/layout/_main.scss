@@ -50,7 +50,6 @@
     margin: 0 0 45px 15px;
     transition: background-color ease 0.8s, width ease 0.8s;
     &:hover {
-      width: 90px;
       background-color: $orange;
       color: $white;
       box-shadow: 2px 2px 2px lightgrey;
