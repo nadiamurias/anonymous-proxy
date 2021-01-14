@@ -1,0 +1,26 @@
+.special {
+  display: none;
+  & .special__title {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    @media all and (min-width: 768px) {
+      width: 100vw;
+    }
+  }
+  & .special__subtitle {
+    @media all and (min-width: 768px) {
+      width: 50vw;
+    }
+  }
+  & .special__text {
+    @media all and (min-width: 768px) {
+      width: 50vw;
+    }
+  }
+  @media all and (min-width: 768px) {
+    background-color: $orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
