@@ -49,6 +49,7 @@
     background-color: $white;
     margin: 0 0 45px 15px;
     transition: background-color ease 0.8s, width ease 0.8s;
+    cursor: pointer;
     &:hover {
       background-color: $orange;
       color: $white;

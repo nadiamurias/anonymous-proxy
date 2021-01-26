@@ -70,6 +70,7 @@
     background-color: $orange;
     margin: 45px 68px 60px 68px;
     transition: background-color ease 0.8s, width ease 0.8s;
+    cursor: pointer;
     &:hover {
       width: 200px;
       background-color: $white;
