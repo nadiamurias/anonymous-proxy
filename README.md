@@ -1,4 +1,4 @@
-# Evaluación final - módulo 1- Nadia Murias
+# Anonymous Proxy
 
 Hola!!
 
@@ -8,7 +8,7 @@ Podrás acceder a ella a través del siguiente [enlace](http://beta.adalab.es/mo
 
 Utilizando las tecnologías de Sass y Gulp he podido agilizar la creación y automatización del código.
 
-El repositorio está compuesto de varias carpetas y ficheros, donde ubicamos las distintas partes del código, como son:
+El repositorio está compuesto de varias carpetas y ficheros, donde están ubicacas las distintas partes del código, como son:
 
 - **docs** donde verás el código listo para visualizarlo a través del servidor.
 - **src** recoge toda la estructura del código (html, sass e imágenes).
