@@ -4,7 +4,7 @@ Hola!!
 
 He desarrollado mi primera landing page de forma individual como futura programadora front- end.
 
-Podrás acceder a ella a través del siguiente [enlace](http://beta.adalab.es/modulo-1-evaluacion-final-Nadia3584/).
+Podrás acceder a ella a través del siguiente [enlace](https://nadiamurias.github.io/anonymous-proxy/).
 
 Utilizando las tecnologías de Sass y Gulp he podido agilizar la creación y automatización del código.
 
